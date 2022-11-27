@@ -14,7 +14,7 @@ function Login() {
   return (
     <div className="login-conatiner">
       <div className="spinWheel">
-        <img src={spinWheel} alt="spinWheel" />
+        <img className="login-spinWheel" src={spinWheel} alt="spinWheel" />
       </div>
       <div className="login-form">
         <h5>This is how EngageBud looks like in action!</h5>

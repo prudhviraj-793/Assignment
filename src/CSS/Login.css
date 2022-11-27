@@ -8,6 +8,22 @@
   align-items: center;
 }
 
+.login-spinWheel {
+  width: 50%;
+}
+
+.spinWheel {
+  text-align: center;
+}
+
+h5 {
+  font-size: 1em;
+}
+
+.login-form {
+  padding: 1em;
+}
+
 .login-form input {
   outline: none;
 }
@@ -29,12 +45,28 @@
 }
 
 .button {
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-    background-color: #146531;
-    color: white;
-    border: none;
-    padding: 0.5em;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background-color: #146531;
+  color: white;
+  border: none;
+  padding: 0.5em;
+}
+
+@media (max-width: 620px) {
+  h5 {
+    font-size: 1em;
+  }
+  .login-conatiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .login-form {
+    margin-top: 1em;
+    width: min-content;
+  }
 }
