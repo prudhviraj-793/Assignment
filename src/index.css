@@ -1,0 +1,16 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-image: url("./Images/Mask\ group.png");
+  background-color: #cadb7f;
+}
+
+img {
+  width: 60%;
+  max-width: 100%;
+}

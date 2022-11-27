@@ -1,0 +1,40 @@
+.login-conatiner {
+  padding: 1em;
+  position: relative;
+  top: 100px;
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
+
+.login-form input {
+  outline: none;
+}
+
+.login-form div {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.t-c {
+  display: flex;
+  flex-direction: row !important;
+  font-size: 0.5rem;
+}
+
+.t-c input {
+  margin: 5px;
+}
+
+.button {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: #146531;
+    color: white;
+    border: none;
+    padding: 0.5em;
+}
