@@ -1,13 +1,18 @@
-import React from 'react'
-import spinWheel from '../Images/Group 1579.png'
-import '../CSS/SpinWheel.css'
+import React from "react";
+import spinWheel from "../Images/Group 1579.png";
+import "../CSS/SpinWheel.css";
 
 function SpinWheel() {
   return (
     <div className="spinWheel-container">
-      <img className='spinWheel' src={spinWheel} alt="wheel" />
+      <div className="spinWheel-img">
+        <img src={spinWheel} alt="wheel" />
+      </div>
+      <div className="spin-btn">
+        <button>SPIN</button>
+      </div>
     </div>
-  )
+  );
 }
 
-export default SpinWheel
+export default SpinWheel;
